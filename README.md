@@ -47,4 +47,4 @@ in X, we should rotate around Y.
 
 - The drawing duration is between 500ms to 2000ms.
 
-Now we can implement the following rules with a state machine to detect "V" gestures.
+Now we can implement this rules with a state machine to detect "V" gestures.
