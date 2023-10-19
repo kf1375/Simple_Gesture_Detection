@@ -6,8 +6,7 @@ Z (Yaw) actually does not matter in this scenario.
   
 
 ```
-Z  
-  
+Z   
 |            Y  
 |          /   . C (Rotational Center)  
 |        /    __ __  
