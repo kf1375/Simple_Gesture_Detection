@@ -15,6 +15,7 @@ Z (Yaw) actually does not matter in this scenario.
                 
 C = [whatever X, whatever Y, h]  
 
+'''
 Z  
   
 |            Y  
@@ -24,7 +25,7 @@ Z
 |    /    /  P  /  
 |  /    /__ __/  
 |/__ __ __ __ __ __  X  
-
+'''
 Y
         
 |    ____________________
