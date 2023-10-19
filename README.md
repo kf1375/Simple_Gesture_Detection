@@ -15,7 +15,7 @@ Z (Yaw) actually does not matter in this scenario.
                 
 C = [whatever X, whatever Y, h]  
 
-'''
+```
 Z  
   
 |            Y  
@@ -25,7 +25,7 @@ Z
 |    /    /  P  /  
 |  /    /__ __/  
 |/__ __ __ __ __ __  X  
-'''
+
 Y
         
 |    ____________________
@@ -35,6 +35,7 @@ Y
 |   |    \/             |
 |   ---------------------
 |__ __ __ __ __ __ __  X
+```
 
         
 To have displacement in Y, we should rotate around X and to have displacement
