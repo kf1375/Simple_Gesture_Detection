@@ -38,13 +38,13 @@ Y
 - To have displacement in Y, we should rotate around X and to have displacement
 in X, we should rotate around Y.
 
-- For drawing "V" the pen has the following orientation:
+- For drawing "V" the pen has the following orientations:
     - Step 1: At the beginning the roll and pitch both start to increase untilwe reach the  lowest part of "V"
     - Step 2: Then for drawing the right side of "V"  the pitch still increases
             but the roll begins to orient in the opposite direction until we
             reach the ending point and the roll returns to the value of the
             angle at the starting point;
-    - ## Note:
-        - the drawing duration is between 500ms to 2000ms.
+
+- The drawing duration is between 500ms to 2000ms.
 
 Now we can implement the following rules with a state machine to detect "V" gestures.
