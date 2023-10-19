@@ -24,24 +24,23 @@ Z
 
 Y
         
-|    ____________________
-|   |   2-3 cm          |
-|   |  \      /         | 
-|   |   \   /  4-10 cm  | 
-|   |    \/             |
+|    ___________________
+|   |   2-3 cm         |
+|   |  \    /          | 
+|   |   \  /  4-10 cm  | 
+|   |    \/            |
 |   ____________________
-|__ __ __ __ __ __ __  X
+|__ __ __ __ __ __ __  __ __ X
 ```
 ### Note:
 - Rotational Center is the position on the pen that we grab from there.  
-  
-C = [whatever X, whatever Y, h]  
+  - C = [whatever X, whatever Y, h]  
         
 To have displacement in Y, we should rotate around X and to have displacement
 in X, we should rotate around Y.
 
-For drawing "V" the pen has the following orientation:
-    - Step 1: At the beginning the roll and pitch both start to increase untilwe reach the lowest part of "V"
+- For drawing "V" the pen has the following orientation:
+    - Step 1: At the beginning the roll and pitch both start to increase untilwe reach the  lowest part of "V"
     - Step 2: Then for drawing the right side of "V"  the pitch still increases
             but the roll begins to orient in the opposite direction until we
             reach the ending point and the roll returns to the value of the
