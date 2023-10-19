@@ -23,7 +23,7 @@ Z
 |/__ __ __ __ __ __  X  
 
 Y
-        
+|        
 |    ___________________
 |   |   2-3 cm         |
 |   |  \    /          | 
@@ -35,8 +35,7 @@ Y
 ### Note:
 - Rotational Center is the position on the pen that we grab from there.  
   - C = [whatever X, whatever Y, h]  
-        
-To have displacement in Y, we should rotate around X and to have displacement
+- To have displacement in Y, we should rotate around X and to have displacement
 in X, we should rotate around Y.
 
 - For drawing "V" the pen has the following orientation:
@@ -45,6 +44,7 @@ in X, we should rotate around Y.
             but the roll begins to orient in the opposite direction until we
             reach the ending point and the roll returns to the value of the
             angle at the starting point;
-    - ## Note: the drawing duration is between 500ms to 2000ms.
+    - ## Note:
+        - the drawing duration is between 500ms to 2000ms.
 
 Now we can implement the following rules with a state machine to detect "V" gestures.
