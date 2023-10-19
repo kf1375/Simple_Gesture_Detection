@@ -26,7 +26,7 @@ Y
 |   ____________________
 |__ __ __ __ __ __ __  __ __ X
 ```
-### Note:
+### Notes:
 - Assume:
     - rotation around X is Roll
     - rotation around Y is Pitch
