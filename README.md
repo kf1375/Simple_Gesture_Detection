@@ -1,11 +1,5 @@
 # Simple State Machine to detect "V" gesture
 
-- Assume:
-    - rotation around X is Roll
-    - rotation around Y is Pitch
-    - rotation around Z is Yaw
-    - CCW Rotation is posiive  
-
 According to the below frames for drawing a "V" we have a significant change
 around X (Roll) and a little change around Y (Pitch). and the rotation around
 Z (Yaw) actually does not matter in this scenario.
@@ -33,8 +27,15 @@ Y
 |__ __ __ __ __ __ __  __ __ X
 ```
 ### Note:
+- Assume:
+    - rotation around X is Roll
+    - rotation around Y is Pitch
+    - rotation around Z is Yaw
+    - CCW Rotation is posiive  
+
 - Rotational Center is the position on the pen that we grab from there.  
   - C = [whatever X, whatever Y, h]  
+
 - To have displacement in Y, we should rotate around X and to have displacement
 in X, we should rotate around Y.
 
