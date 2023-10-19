@@ -11,9 +11,8 @@ around X (Roll) and a little change around Y (Pitch). and the rotation around
 Z (Yaw) actually does not matter in this scenario.
 
 ### Note:
-    - Rotational Center is the position on the pen that we grab from there.  
-                
-C = [whatever X, whatever Y, h]  
+- Rotational Center is the position on the pen that we grab from there.  
+  
 
 ```
 Z  
@@ -33,10 +32,11 @@ Y
 |   |  \      /         | 
 |   |   \   /  4-10 cm  | 
 |   |    \/             |
-|   ---------------------
+|   ____________________
 |__ __ __ __ __ __ __  X
 ```
-
+  
+C = [whatever X, whatever Y, h]  
         
 To have displacement in Y, we should rotate around X and to have displacement
 in X, we should rotate around Y.
